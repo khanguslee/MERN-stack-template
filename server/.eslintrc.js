@@ -4,7 +4,7 @@ module.exports = {
     commonjs: true,
     es2020: true,
   },
-  extends: ['prettier', 'airbnb-base'],
+  extends: ['airbnb-base', 'prettier'],
   plugins: ['prettier'],
   parserOptions: {
     ecmaVersion: 11,
