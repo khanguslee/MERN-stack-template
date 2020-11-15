@@ -5,7 +5,8 @@
   "author": "khanguslee",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "start:watch": "nodemon index.js"
   },
   "dependencies": {
     "express": "^4.17.1",
