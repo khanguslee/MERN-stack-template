@@ -13,6 +13,7 @@ Back-End:
 
 - NodeJS
 - Express
+- MongoDB
 
 Development tools:
 
