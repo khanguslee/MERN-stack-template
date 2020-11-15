@@ -1,4 +1,5 @@
 const express = require('express');
+const { connectDb } = require('./models');
 
 const logger = require('./logger');
 
@@ -13,6 +14,8 @@ app.use(express.json());
 // Host the build folder of the client application
 app.use(express.static('../client/build'));
 
-app.listen(PORT, () => {
-  logger.info(`Server listening on port ${PORT}.`);
+connectDb().then(async () => {
+  app.listen(PORT, () => {
+    logger.info(`Server listening on port ${PORT}.`);
+  });
 });
