@@ -2,6 +2,25 @@
 
 Quick template repo that sets up a full MERN stack.
 
+This repo features the following:
+
+Front-End:
+
+- React
+- SCSS
+
+Back-End:
+
+- NodeJS
+- Express
+
+Development tools:
+
+- eslint
+- prettier
+- husky + lint-staged 
+- winston for back-end logging
+
 ## Getting Started
 
 The application has been split into `server` and `client` folders which contain the node + express backend and React frontend respectively.
